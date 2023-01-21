@@ -39,8 +39,21 @@ const Home: FC = () => {
 					<Figure />
 				</div>
 				<div className=" z-10 text-center font-Didot font-normal text-white">
-					<h1 className="tracking-[.4em]">WILLIAM</h1>
-					<h1 className="mt-1 tracking-[.4em]">PHAN</h1>
+					<h1 className="tracking-[.4em]">
+						<a className="animate-flash1">W</a>
+						<a className="animate-flash2">I</a>
+						<a className="animate-flash3">L</a>
+						<a className="animate-flash4">L</a>
+						<a className="animate-flash5">I</a>
+						<a className="animate-flash6">A</a>
+						<a className="animate-flash7">M</a>
+					</h1>
+					<h1 className="mt-1 tracking-[.4em]">
+						<a className="animate-flash3">P</a>
+						<a className="animate-flash2">H</a>
+						<a className="animate-flash1">A</a>
+						<a className="animate-flash">N</a>
+					</h1>
 				</div>
 			</section>
 			<section className=" min-h-screen container mx-auto flex flex-col px-5 mt-24 sm:mt-0 py-24 items-center justify-center ">
