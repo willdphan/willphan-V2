@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, useRef } from 'react'
 import { APP_NAME } from '@/lib/consts'
 import ConnectWallet from '@/components/ConnectWallet'
 import { BookOpenIcon, CodeIcon, ShareIcon } from '@heroicons/react/outline'
@@ -15,11 +15,25 @@ const Home: FC = () => {
 		<div className="relative flex flex-col sm:flex-row justify-center  bg-[#05061D] sm:items-center py-4 sm:pt-0">
 			<section className="container mx-auto flex flex-col px-5  min-h-screen items-center justify-center ">
 				<div className="text-center space-x-[-3em] flex">
-					{/* <div className=" tracking-[.4em] text-center uppercase font-Didot font-normal text-white mb-[1.5em] z-99" */}
 					{/* perfect */}
-					<h1 className={styles.vertical}>τέλειο</h1>
+					<h1 className={styles.vertical}>
+						<a className="animate-flash">τ</a>
+						<a className="animate-flash1">έ</a>
+						<a className="animate-flash2">λ</a>
+						<a className="animate-flash3">ε</a>
+						<a className="animate-flash4">ι</a>
+						<a className="animate-flash5">ο</a>
+					</h1>
+
 					{/* imperfectly */}
-					<h1 className={styles.vertical}>ατελώς</h1>
+					<h1 className={styles.vertical}>
+						<a className="animate-flash5">α</a>
+						<a className="animate-flash4">τ</a>
+						<a className="animate-flash3">ε</a>
+						<a className="animate-flash2">λ</a>
+						<a className="animate-flash1">ώ</a>
+						<a className="animate-flash">ς</a>
+					</h1>
 				</div>
 				<div className="w-[20rem] h-[22rem] -z-1">
 					<Figure />

@@ -13,6 +13,7 @@
 		"@heroicons/react": "^2.0.13",
 		"@react-three/fiber": "^8.10.0",
 		"autoprefixer": "^10.4.7",
+		"chaffle": "^2.1.0",
 		"connectkit": "^0.0.2",
 		"ethers": "^5.7.1",
 		"next": "12.1.6",
