@@ -66,19 +66,16 @@ const Home: FC = () => {
 					<Link href="https://frost-sloop-bbc.notion.site/Library-034fc60526034e6c85f1f4fa605095e7">
 						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer hover:underline">LIBRARY</h1>
 					</Link>
-					<Link href="/ratio">
-						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer ">
-							<a className="hover:underline" href="https://twitter.com/willdphan">
-								{' '}
-								TWITTER
-							</a>{' '}
-							|{' '}
-							<a className="hover:underline" href="mailto:willdphan@gmail.com">
-								{' '}
-								MAIL{' '}
-							</a>
-						</h1>
-					</Link>
+
+					<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer ">
+						<Link href="https://twitter.com/willdphan">
+							<a className="hover:underline"> TWITTER</a>
+						</Link>{' '}
+						|{' '}
+						<Link href="mailto:willdphan@gmail.com">
+							<a className="hover:underline"> MAIL </a>
+						</Link>
+					</h1>
 				</div>
 			</section>
 		</div>
