@@ -40,13 +40,13 @@ const Home: FC = () => {
 				</div>
 				<div className=" z-10 text-center font-Didot font-normal text-white">
 					<h1 className="tracking-[.4em]">
-						<a className="animate-flash1">W</a>
-						<a className="animate-flash2">I</a>
+						<a className="animate-flash">W</a>
+						<a className="animate-flash1">I</a>
+						<a className="animate-flash2">L</a>
 						<a className="animate-flash3">L</a>
-						<a className="animate-flash4">L</a>
-						<a className="animate-flash5">I</a>
-						<a className="animate-flash6">A</a>
-						<a className="animate-flash7">M</a>
+						<a className="animate-flash4">I</a>
+						<a className="animate-flash5">A</a>
+						<a className="animate-flash6">M</a>
 					</h1>
 					<h1 className="mt-1 tracking-[.4em]">
 						<a className="animate-flash3">P</a>
