@@ -44,8 +44,8 @@ const Projects = () => {
 									<h1 className="tracking-[.4em]  text-[.8em] r">LATTER</h1>
 
 									<p className="text-[.8em] leading-6 h-22  ">
-										Mini-implementation of Fractional Protocol. Ratio is a protocol that enables
-										collective ownership and governance of one or more NFTs.
+										A mini-implementation of Affirm. Pay-in-four model is implemented, where 4
+										payments are made every 2 weeks for an NFT. Mostly used for high ticket NFTs.
 									</p>
 									<div className="flex justify-center space-x-10">
 										<Link href="https://github.com/wdphan/latter">
