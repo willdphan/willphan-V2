@@ -10,27 +10,27 @@ module.exports = {
 			},
 			keyframes: {
 				flash: {
-					'0%, 40%': { opacity: '0' },
+					'0%, 20%': { opacity: '0' },
 					'50%': { opacity: '10' },
 					'75%': { opacity: '20' },
 				},
 				flash1: {
-					'0%, 40%': { opacity: '0' },
+					'0%, 20%': { opacity: '0' },
 					'50%': { opacity: '10' },
 					'75%': { opacity: '20' },
 				},
 				flash2: {
-					'0%, 40%': { opacity: '0' },
+					'0%, 20%': { opacity: '0' },
 					'50%': { opacity: '10' },
 					'75%': { opacity: '20' },
 				},
 				flash3: {
-					'0%, 40%': { opacity: '0' },
+					'0%, 20%': { opacity: '0' },
 					'50%': { opacity: '10' },
 					'75%': { opacity: '20' },
 				},
 				flash4: {
-					'0%, 40%': { opacity: '0' },
+					'0%, 20%': { opacity: '0' },
 					'50%': { opacity: '10' },
 					'75%': { opacity: '20' },
 				},
@@ -40,12 +40,12 @@ module.exports = {
 					'75%': { opacity: '20' },
 				},
 				flash6: {
-					'0%, 40%': { opacity: '0' },
+					'0%, 20%': { opacity: '0' },
 					'50%': { opacity: '10' },
 					'75%': { opacity: '20' },
 				},
 				flash7: {
-					'0%, 40%': { opacity: '0' },
+					'0%, 20%': { opacity: '0' },
 					'50%': { opacity: '10' },
 					'75%': { opacity: '20' },
 				},
