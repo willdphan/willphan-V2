@@ -58,10 +58,13 @@ const Home: FC = () => {
 			</section>
 			<section className=" min-h-screen container mx-auto flex flex-col px-5 mt-24 sm:mt-0 py-24 items-center justify-center ">
 				<div className=" z-10 text-center font-Didot font-normal text-white space-y-10">
-					<Dropdown />
+					<Link href="https://github.com/wdphan">
+						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">GITHUB</h1>
+					</Link>
 					<Link href="/projects">
 						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">PROJECTS</h1>
 					</Link>
+					<Dropdown />
 
 					<Link href="https://frost-sloop-bbc.notion.site/Library-034fc60526034e6c85f1f4fa605095e7">
 						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer hover:underline">LIBRARY</h1>
