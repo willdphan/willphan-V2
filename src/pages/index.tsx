@@ -33,16 +33,23 @@ const Home: FC = () => {
 				<div className=" z-10 text-center font-Didot font-normal text-white space-y-10">
 					<Dropdown />
 					<Link href="/projects">
-						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer">PROJECTS</h1>
+						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">PROJECTS</h1>
 					</Link>
 
 					<Link href="https://frost-sloop-bbc.notion.site/Library-034fc60526034e6c85f1f4fa605095e7">
-						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer">LIBRARY</h1>
+						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer hover:underline">LIBRARY</h1>
 					</Link>
 					<Link href="/ratio">
-						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer">
-							<a href="https://twitter.com/willdphan"> TWITTER</a> |{' '}
-							<a href="mailto:willdphan@gmail.com"> MAIL </a>
+						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer ">
+							<a className="hover:underline" href="https://twitter.com/willdphan">
+								{' '}
+								TWITTER
+							</a>{' '}
+							|{' '}
+							<a className="hover:underline" href="mailto:willdphan@gmail.com">
+								{' '}
+								MAIL{' '}
+							</a>
 						</h1>
 					</Link>
 				</div>
