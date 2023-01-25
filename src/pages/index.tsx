@@ -12,8 +12,8 @@ import Dropdown from 'src/components/LearningsDropdown'
 
 const Home: FC = () => {
 	return (
-		<div className="relative flex flex-col sm:flex-row justify-center  bg-[#05061D] sm:items-center py-4 sm:pt-0">
-			<section className="container mx-auto flex flex-col px-5 min-h-screen items-center justify-center ">
+		<div className="relative flex flex-col sm:flex-row justify-center  sm:items-center py-4 sm:pt-0">
+			<section className="container mx-auto flex flex-col px-5 min-h-screen  bg-[#05061D] items-center justify-center ">
 				<div className="text-center space-x-[-3em] flex">
 					{/* perfect */}
 					<h1 className={styles.vertical}>
@@ -56,8 +56,8 @@ const Home: FC = () => {
 					</h1>
 				</div>
 			</section>
-			<section className=" min-h-screen container mx-auto flex flex-col px-5 mt-24 sm:mt-0 py-24 items-center justify-center ">
-				<div className=" z-10 text-center font-Mono font-normal text-white space-y-10">
+			<section className=" min-h-screen container mx-auto flex flex-col bg-white px-5 mt-24 sm:mt-0 py-24 items-center justify-center ">
+				<div className=" z-10 text-center font-Mono font-bold text-black space-y-10">
 					<Link href="https://github.com/wdphan">
 						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">GITHUB</h1>
 					</Link>
