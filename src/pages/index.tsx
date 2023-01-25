@@ -57,7 +57,7 @@ const Home: FC = () => {
 				</div>
 			</section>
 			<section className=" min-h-screen container mx-auto flex flex-col bg-white px-5 mt-24 sm:mt-0 py-24 items-center justify-center ">
-				<div className=" z-10 text-center font-Mono font-bold text-black space-y-10">
+				<div className=" z-10 text-center font-Mono font-bold text-[#05061D] space-y-10">
 					<Link href="https://github.com/wdphan">
 						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">GITHUB</h1>
 					</Link>
