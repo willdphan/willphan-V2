@@ -8,6 +8,7 @@ module.exports = {
 				Mont: ['Montserrat', 'sans-serif'],
 				Didot: ['GFS Didot', 'sans-serif'],
 				Mono: ['Roboto Mono', 'sans-serif'],
+				Work: ['Work Sans', 'sans-serif'],
 			},
 			keyframes: {
 				flash: {

@@ -38,8 +38,8 @@ const Home: FC = () => {
 				<div className="w-[20rem] h-[22rem] -z-1">
 					<Figure />
 				</div>
-				<div className=" z-10 text-center font-Mono font-normal text-white">
-					<h1 className="tracking-[.2em]">
+				<div className="text-md z-10 text-center font-Mono font-bold text-white">
+					<h1 className="tracking-[.4em]">
 						<a className="animate-flash">W</a>
 						<a className="animate-flash1">I</a>
 						<a className="animate-flash2">L</a>
@@ -48,7 +48,7 @@ const Home: FC = () => {
 						<a className="animate-flash5">A</a>
 						<a className="animate-flash6">M</a>
 					</h1>
-					<h1 className="mt-1 tracking-[.2em]">
+					<h1 className="mt-1 tracking-[.4em]">
 						<a className="animate-flash3">P</a>
 						<a className="animate-flash2">H</a>
 						<a className="animate-flash1">A</a>
