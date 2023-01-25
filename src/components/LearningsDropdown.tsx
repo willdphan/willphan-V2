@@ -8,7 +8,7 @@ export default function Dropdown() {
 		<div className="flex content-center items-center justify-center w-56 text-right">
 			<Menu as="div" className=" inline-block text-left">
 				<div>
-					<Menu.Button className="inline-flex w-full justify-center rounded-md bg-[#05061D] tracking-[.4em] text-[.8em] font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 hover:underline">
+					<Menu.Button className="inline-flex w-full justify-center rounded-md bg-[#05061D] tracking-[.4em] text-[.8em] font-normal text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 hover:underline">
 						LEARNINGS
 						<ChevronDownIcon
 							className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
