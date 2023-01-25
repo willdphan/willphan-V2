@@ -16,8 +16,7 @@ const Projects = () => {
 				<div className="container px-5 py-24 mx-auto">
 					<div className="flex flex-col font-Mono text-center w-full space-y-5">
 						<h1 className="tracking-[.2em]">PROJECTS</h1>
-						<h1 className=" tracking-[.2em] text-[.8em] ">SMALL IDEAS,</h1>
-						<h1 className=" tracking-[.2em] text-[.8em] ">SMALL CONCEPTS.</h1>
+						<h1 className=" tracking-[.2em] text-[.8em] ">SMALL IDEAS, SMALL CONCEPTS.</h1>
 					</div>
 					{/* FORMAT BELOW FOR SINGLE ITEM W/NO PIC */}
 					{/* <div className="p-4 lg:w-6/12 mt-20">
@@ -212,7 +211,7 @@ const Projects = () => {
 											src={King}
 										/>
 									</Link>
-									<h1 className=" tracking-[.2em] pt-2 text-[.8em] ">ETH KINGDOM</h1>
+									<h1 className=" tracking-[.em] pt-2 text-[.8em] ">ETH KINGDOM</h1>
 
 									<p className="text-[.8em] leading-6 h-22 ">
 										Highest paying address gets their address ETH Domain listed on top of
