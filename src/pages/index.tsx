@@ -13,7 +13,7 @@ import Dropdown from 'src/components/LearningsDropdown'
 const Home: FC = () => {
 	return (
 		<div className="relative flex flex-col sm:flex-row justify-center  bg-[#05061D] sm:items-center py-4 sm:pt-0">
-			<section className="container mx-auto flex flex-col px-5  min-h-screen items-center justify-center ">
+			<section className="container mx-auto flex flex-col px-5 min-h-screen items-center justify-center ">
 				<div className="text-center space-x-[-3em] flex">
 					{/* perfect */}
 					<h1 className={styles.vertical}>
@@ -38,8 +38,8 @@ const Home: FC = () => {
 				<div className="w-[20rem] h-[22rem] -z-1">
 					<Figure />
 				</div>
-				<div className=" z-10 text-center font-Didot font-normal text-white">
-					<h1 className="tracking-[.4em]">
+				<div className=" z-10 text-center font-Mono font-normal text-white">
+					<h1 className="tracking-[.2em]">
 						<a className="animate-flash">W</a>
 						<a className="animate-flash1">I</a>
 						<a className="animate-flash2">L</a>
@@ -48,7 +48,7 @@ const Home: FC = () => {
 						<a className="animate-flash5">A</a>
 						<a className="animate-flash6">M</a>
 					</h1>
-					<h1 className="mt-1 tracking-[.4em]">
+					<h1 className="mt-1 tracking-[.2em]">
 						<a className="animate-flash3">P</a>
 						<a className="animate-flash2">H</a>
 						<a className="animate-flash1">A</a>
@@ -57,7 +57,7 @@ const Home: FC = () => {
 				</div>
 			</section>
 			<section className=" min-h-screen container mx-auto flex flex-col px-5 mt-24 sm:mt-0 py-24 items-center justify-center ">
-				<div className=" z-10 text-center font-Didot font-normal text-white space-y-10">
+				<div className=" z-10 text-center font-Mono font-normal text-white space-y-10">
 					<Link href="https://github.com/wdphan">
 						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">GITHUB</h1>
 					</Link>

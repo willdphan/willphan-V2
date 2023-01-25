@@ -47,7 +47,8 @@ function Torusknot(props, p, q) {
 	)
 }
 
-function AsciiRenderer({ renderIndex = 1, characters = ' .:-+*=%@#$', ...options }) {
+// function AsciiRenderer({ renderIndex = 1, characters = ' .:-+*=%@#$', ...options }) {
+function AsciiRenderer({ renderIndex = 1, characters = ' .:-+*=|||', ...options }) {
 	// Reactive state
 	const { size, gl, scene, camera } = useThree()
 

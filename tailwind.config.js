@@ -7,6 +7,7 @@ module.exports = {
 				Grotesk: ['Hanken Grotesk', 'sans-serif'],
 				Mont: ['Montserrat', 'sans-serif'],
 				Didot: ['GFS Didot', 'sans-serif'],
+				Mono: ['Roboto Mono', 'sans-serif'],
 			},
 			keyframes: {
 				flash: {

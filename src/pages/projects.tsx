@@ -11,13 +11,13 @@ import Duffle from 'public/images/Duffle.png'
 
 const Projects = () => {
 	return (
-		<div className="relative flex flex-col sm:flex-row justify-center font-Didot min-h-screen bg-[#05061D] sm:items-center py-4 sm:pt-0">
+		<div className="relative flex flex-col sm:flex-row justify-center font-Mono min-h-screen bg-[#05061D] sm:items-center py-4 sm:pt-0">
 			<section className="text-white body-font max-w-md sm:max-w-6xl">
 				<div className="container px-5 py-24 mx-auto">
-					<div className="flex flex-col font-Didot text-center w-full space-y-5">
-						<h1 className="tracking-[.4em]">PROJECTS</h1>
-						<h1 className=" tracking-[.4em] text-[.8em] ">SMALL IDEAS,</h1>
-						<h1 className=" tracking-[.4em] text-[.8em] ">SMALL CONCEPTS.</h1>
+					<div className="flex flex-col font-Mono text-center w-full space-y-5">
+						<h1 className="tracking-[.2em]">PROJECTS</h1>
+						<h1 className=" tracking-[.2em] text-[.8em] ">SMALL IDEAS,</h1>
+						<h1 className=" tracking-[.2em] text-[.8em] ">SMALL CONCEPTS.</h1>
 					</div>
 					{/* FORMAT BELOW FOR SINGLE ITEM W/NO PIC */}
 					{/* <div className="p-4 lg:w-6/12 mt-20">
@@ -41,7 +41,7 @@ const Projects = () => {
 						<div className="p-4 lg:w-6/12 mt-20">
 							<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 								<div className="text-center sm:w-[25em] space-y-5">
-									<h1 className="tracking-[.4em]  text-[.8em] r">LATTER</h1>
+									<h1 className="tracking-[.2em]  text-[.8em] r">LATTER</h1>
 
 									<p className="text-[.8em] leading-6 h-22  ">
 										A mini-implementation of Affirm. Pay-in-four model is implemented, where 4
@@ -70,7 +70,7 @@ const Projects = () => {
 											src={Ratio}
 										/>
 									</Link>
-									<h1 className="tracking-[.4em] my-2 text-[.8em]">RATIO</h1>
+									<h1 className="tracking-[.2em] my-2 text-[.8em]">RATIO</h1>
 
 									<p className="mb-2 text-[.8em] leading-6 h-22 ">
 										Mini-implementation of Fractional Protocol. Ratio is a protocol that enables
@@ -97,7 +97,7 @@ const Projects = () => {
 											src={Kaleidor}
 										/>
 									</Link>
-									<h1 className=" tracking-[.4em] text-[.8em] ">KALEIDOR</h1>
+									<h1 className=" tracking-[.2em] text-[.8em] ">KALEIDOR</h1>
 
 									<p className=" text-[.8em] leading-6 h-22  ">
 										On-chain SVGs are pre-rendered so you see what you get. The price structure of
@@ -126,7 +126,7 @@ const Projects = () => {
 											src={Shade}
 										/>
 									</Link>
-									<h1 className=" tracking-[.4em] text-[.8em] ">SHADE</h1>
+									<h1 className=" tracking-[.2em] text-[.8em] ">SHADE</h1>
 
 									<p className="text-[.8em] leading-6 h-22  ">
 										111 NFTs, each one contains a different pattern with a white orb placed in
@@ -153,7 +153,7 @@ const Projects = () => {
 											src={Splitz}
 										/>
 									</Link>
-									<h1 className=" tracking-[.4em] text-[.8em] ">SPLITZ</h1>
+									<h1 className=" tracking-[.2em] text-[.8em] ">SPLITZ</h1>
 
 									<p className="text-[.8em] leading-6 h-22  ">
 										Mini-implementation of 0xSplitz, form groups of addresses. When formed, send
@@ -185,7 +185,7 @@ const Projects = () => {
 											src={Duffle}
 										/>
 									</Link>
-									<h1 className=" tracking-[.4em] text-[.8em] ">DUFFLE</h1>
+									<h1 className=" tracking-[.2em] text-[.8em] ">DUFFLE</h1>
 
 									<p className="text-[.8em] leading-6 h-22  ">
 										Quickly create groups or communities with Alchemy NFT API. Create proposals or
@@ -212,7 +212,7 @@ const Projects = () => {
 											src={King}
 										/>
 									</Link>
-									<h1 className=" tracking-[.4em] pt-2 text-[.8em] ">ETH KINGDOM</h1>
+									<h1 className=" tracking-[.2em] pt-2 text-[.8em] ">ETH KINGDOM</h1>
 
 									<p className="text-[.8em] leading-6 h-22 ">
 										Highest paying address gets their address ETH Domain listed on top of
