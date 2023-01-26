@@ -9,11 +9,18 @@ import styles from 'src/styles/vertical.module.css'
 import Figure from 'src/components/figure.js'
 import Link from 'next/link'
 import Dropdown from 'src/components/LearningsDropdown'
+import { motion } from 'framer-motion'
 
 const Home: FC = () => {
 	return (
-		<div className="relative flex flex-col sm:flex-row justify-center  sm:items-center py-4 sm:pt-0">
-			<section className="container mx-auto flex flex-col px-5 min-h-screen  bg-[#05061D] items-center justify-center ">
+		<motion.div
+			exit={{ opacity: 0 }}
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ duration: 0.3 }}
+			className="relative flex flex-col sm:flex-row justify-center sm:items-center py-4 sm:pt-0"
+		>
+			<section className="container mx-auto flex flex-col px-5 min-h-screen bg-[#05061D] items-center justify-center ">
 				<div className="text-center space-x-[-3em] flex">
 					{/* perfect */}
 					<h1 className={styles.vertical}>
@@ -38,7 +45,7 @@ const Home: FC = () => {
 				<div className="w-[20rem] h-[22rem] -z-1">
 					<Figure />
 				</div>
-				<div className="text-md z-10 text-center font-Mono font-bold text-white">
+				<div className="text-sm z-10 text-center font-Mono  text-white">
 					<h1 className="tracking-[.4em]">
 						<a className="animate-flash">W</a>
 						<a className="animate-flash1">I</a>
@@ -81,7 +88,7 @@ const Home: FC = () => {
 					</h1>
 				</div>
 			</section>
-		</div>
+		</motion.div>
 	)
 }
 
