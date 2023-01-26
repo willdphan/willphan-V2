@@ -68,7 +68,7 @@ const Projects = () => {
 			</section>
 			<section className="container px-5 py-24 mx-auto text-white bg-[#05061D]   body-font  sm:max-w-full">
 				<div className="flex flex-col items-center">
-					<div className="p-4 lg:w-6/12 mt-20">
+					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 							<div className="text-center sm:w-[25em] space-y-5">
 								<h1 className="tracking-[.4em] text-[.8em] font-normal">LATTER</h1>
@@ -86,7 +86,7 @@ const Projects = () => {
 						</div>
 					</div>
 
-					<div className="p-4 lg:w-6/12 mt-20">
+					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 							<div className="text-center sm:w-[25em] space-y-5 ">
 								{/* <div className="text-center flex-grow "> */}
@@ -115,7 +115,7 @@ const Projects = () => {
 						</div>
 					</div>
 
-					<div className="p-4 lg:w-6/12 mt-10">
+					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 							<div className="text-center sm:w-[25em] space-y-5">
 								<Link href="https://kaleidor.vercel.app/">
@@ -143,7 +143,7 @@ const Projects = () => {
 						</div>
 					</div>
 
-					<div className="p-4 lg:w-6/12 mt-20">
+					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 							<div className="text-center sm:w-[25em] space-y-5">
 								<Link href="https://shade-pi.vercel.app/">
@@ -170,7 +170,7 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-4 lg:w-6/12 mt-10">
+					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 							<div className="text-center sm:w-[25em] space-y-5">
 								<Link href="https://splitz.vercel.app/">
@@ -201,7 +201,7 @@ const Projects = () => {
 						</div>
 					</div>
 
-					<div className="p-4 lg:w-6/12 mt-20">
+					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 							<div className="text-center sm:w-[25em] space-y-5">
 								<Link href="https://duffle.vercel.app/">
@@ -228,7 +228,7 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-4 lg:w-6/12 mt-10">
+					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
 							<div className="text-center sm:w-[25em] space-y-5">
 								<Link href="https://eth-kingdom.vercel.app/">
