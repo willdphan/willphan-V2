@@ -20,6 +20,7 @@ const Home: FC = () => {
 			transition={{ duration: 0.3 }}
 			className="relative flex flex-col sm:flex-row justify-center sm:items-center py-4 sm:pt-0"
 		>
+
 			<section className="container mx-auto flex flex-col px-5 min-h-screen bg-[#05061D] items-center justify-center ">
 				<div className="text-center space-x-[-3em] flex">
 					{/* perfect */}

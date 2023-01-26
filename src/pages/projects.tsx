@@ -21,6 +21,18 @@ const Projects = () => {
 			transition={{ duration: 0.3 }}
 			className="flex flex-col sm:flex-row  font-Mono  bg-white  sm:pt-0"
 		>
+			<Link href="/">
+				<svg
+					className="absolute top-6 left-6 cursor-pointer"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					width="24"
+					height="24"
+				>
+					<path fill="none" d="M0 0h24v24H0z" />
+					<path d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z" />
+				</svg>
+			</Link>
 			<section className="container mx-auto flex min-h-screen sm:max-h-screen items-center  justify-center flex-col px-5 ">
 				<div className="text-md text-black font-Mono text-center font-bold sm:fixed ">
 					<div>
