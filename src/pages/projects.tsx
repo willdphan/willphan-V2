@@ -38,7 +38,7 @@ const Projects = () => {
 					<div>
 						<Small />
 					</div>
-					<div className="flex tracking-[.4em] text-sm font-bold items-center justify-center">
+					<div className="flex tracking-[.4em] text-sm items-center justify-center">
 						<a className="animate-flash">I</a>
 						<a className="animate-flash1">M</a>
 						<a className="animate-flash2">A</a>
@@ -55,7 +55,7 @@ const Projects = () => {
 					<div className="w-[20rem] h-[18rem] -z-1">
 						<Large />
 					</div>
-					<div className="flex tracking-[.4em] text-sm font-bold items-center justify-center">
+					<div className="flex tracking-[.4em] text-sm  items-center justify-center">
 						<a className="animate-flash4">R</a>
 						<a className="animate-flash5">E</a>
 						<a className="animate-flash6">A</a>
