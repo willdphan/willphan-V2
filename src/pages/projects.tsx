@@ -56,13 +56,13 @@ const Projects = () => {
 						<Large />
 					</div>
 					<div className="flex tracking-[.4em] text-sm font-bold items-center justify-center">
-						<a className="animate-flash">R</a>
-						<a className="animate-flash1">E</a>
-						<a className="animate-flash2">A</a>
-						<a className="animate-flash3">L</a>
-						<a className="animate-flash2">I</a>
-						<a className="animate-flash1">T</a>
-						<a className="animate-flash">Y</a>
+						<a className="animate-flash4">R</a>
+						<a className="animate-flash5">E</a>
+						<a className="animate-flash6">A</a>
+						<a className="animate-flash7">L</a>
+						<a className="animate-flash6">I</a>
+						<a className="animate-flash5">T</a>
+						<a className="animate-flash4">Y</a>
 					</div>
 				</div>
 			</section>
