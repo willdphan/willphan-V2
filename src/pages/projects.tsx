@@ -11,8 +11,24 @@ import Duffle from 'public/images/Duffle.png'
 import Large from 'src/components/largefigure.js'
 import Small from 'src/components/smallfigure.js'
 import { motion } from 'framer-motion'
+import { useEffect } from 'react'
 
 const Projects = () => {
+	useEffect(() => {
+		const observer = new IntersectionObserver(entries => {
+			// runs every time visibility changes
+			entries.forEach(entry => {
+				console.log(entry)
+				if (entry.isIntersecting) {
+					entry.target.classList.add('show')
+				}
+			})
+		})
+
+		const scrollElements = document.querySelectorAll('.scroll')
+		scrollElements.forEach(el => observer.observe(el))
+	}, [])
+
 	return (
 		<motion.div
 			exit={{ opacity: 0 }}
@@ -70,16 +86,18 @@ const Projects = () => {
 				<div className="flex flex-col items-center">
 					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
-							<div className="text-center sm:w-[25em] space-y-5">
+							<div className="scroll text-center sm:w-[25em] space-y-5">
 								<h1 className="tracking-[.4em] text-[.8em] font-normal">LATTER</h1>
 
-								<p className="text-[.8em] leading-6 h-22  ">
+								<p className=" text-[.8em] leading-6 h-22  ">
 									A mini-implementation of Affirm. Pay-in-four model is implemented, where 4 payments
 									are made every 2 weeks for an NFT. Mostly used for high ticket NFTs.
 								</p>
 								<div className="flex justify-center space-x-10">
 									<Link href="https://github.com/wdphan/latter">
-										<p className="decoration underline text-[.8em] cursor-pointer">Contracts</p>
+										<p className=" first-letter:decoration underline text-[.8em] cursor-pointer">
+											Contracts
+										</p>
 									</Link>
 								</div>
 							</div>
@@ -88,8 +106,7 @@ const Projects = () => {
 
 					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
-							<div className="text-center sm:w-[25em] space-y-5 ">
-								{/* <div className="text-center flex-grow "> */}
+							<div className="scroll text-center sm:w-[25em] space-y-5">
 								<Link href="http://ratio-flame.vercel.app/">
 									<Image
 										alt="team"
@@ -117,7 +134,7 @@ const Projects = () => {
 
 					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
-							<div className="text-center sm:w-[25em] space-y-5">
+							<div className="scroll text-center sm:w-[25em] space-y-5">
 								<Link href="https://kaleidor.vercel.app/">
 									<Image
 										alt="team"
@@ -145,7 +162,7 @@ const Projects = () => {
 
 					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
-							<div className="text-center sm:w-[25em] space-y-5">
+							<div className="scroll text-center sm:w-[25em] space-y-5">
 								<Link href="https://shade-pi.vercel.app/">
 									<Image
 										alt="team"
@@ -172,7 +189,7 @@ const Projects = () => {
 					</div>
 					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
-							<div className="text-center sm:w-[25em] space-y-5">
+							<div className="scroll text-center sm:w-[25em] space-y-5">
 								<Link href="https://splitz.vercel.app/">
 									<Image
 										alt="team"
@@ -203,7 +220,7 @@ const Projects = () => {
 
 					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
-							<div className="text-center sm:w-[25em] space-y-5">
+							<div className="scroll text-center sm:w-[25em] space-y-5">
 								<Link href="https://duffle.vercel.app/">
 									<Image
 										alt="team"
@@ -230,7 +247,7 @@ const Projects = () => {
 					</div>
 					<div className="p-4 w-full sm:w-10/12 mt-20">
 						<div className="h-full flex sm:flex-row flex-col content-center items-center justify-center text-center sm:text-left text-white">
-							<div className="text-center sm:w-[25em] space-y-5">
+							<div className="scroll text-center sm:w-[25em] space-y-5">
 								<Link href="https://eth-kingdom.vercel.app/">
 									<Image
 										alt="team"

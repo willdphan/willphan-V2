@@ -10,8 +10,24 @@ import Figure from 'src/components/figure.js'
 import Link from 'next/link'
 import Dropdown from 'src/components/LearningsDropdown'
 import { motion } from 'framer-motion'
+import { useEffect } from 'react'
 
 const Home: FC = () => {
+	useEffect(() => {
+		const observer = new IntersectionObserver(entries => {
+			// runs every time visibility changes
+			entries.forEach(entry => {
+				console.log(entry)
+				if (entry.isIntersecting) {
+					entry.target.classList.add('show')
+				}
+			})
+		})
+
+		const scrollElements = document.querySelectorAll('.scroll')
+		scrollElements.forEach(el => observer.observe(el))
+	}, [])
+
 	return (
 		<motion.div
 			exit={{ opacity: 0 }}
@@ -64,26 +80,26 @@ const Home: FC = () => {
 				</div>
 			</section>
 			<section className=" min-h-screen container mx-auto flex flex-col bg-white px-5 pt-24 sm:mt-0 py-24 items-center justify-center ">
-				<div className=" z-10 text-center font-Mono font-bold text-[#05061D] space-y-10">
+				<div className=" z-10 text-center font-Mono font-bold text-black space-y-10">
 					<Link href="https://github.com/wdphan">
-						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">GITHUB</h1>
+						<h1 className="scroll tracking-[.4em] text-[.8em] cursor-pointer hover:underline">GITHUB</h1>
 					</Link>
 					<Link href="/projects">
-						<h1 className="tracking-[.4em] text-[.8em] cursor-pointer hover:underline">PROJECTS</h1>
+						<h1 className=" scroll tracking-[.4em] text-[.8em] cursor-pointer hover:underline">PROJECTS</h1>
 					</Link>
 					<Dropdown />
 
 					<Link href="https://frost-sloop-bbc.notion.site/Library-034fc60526034e6c85f1f4fa605095e7">
-						<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer hover:underline">LIBRARY</h1>
+						<h1 className="scroll tracking-[.4em] text-[.8em] cursor-pointer hover:underline">LIBRARY</h1>
 					</Link>
 
-					<h1 className=" tracking-[.4em] text-[.8em] cursor-pointer ">
+					<h1 className="scroll tracking-[.4em] text-[.8em] cursor-pointer ">
 						<Link href="https://twitter.com/willdphan">
-							<a className="hover:underline"> TWITTER</a>
+							<a className=" hover:underline"> TWITTER</a>
 						</Link>{' '}
 						|{' '}
 						<Link href="mailto:willdphan@gmail.com">
-							<a className="hover:underline"> MAIL </a>
+							<a className="scroll hover:underline"> MAIL </a>
 						</Link>
 					</h1>
 				</div>
